@@ -1,0 +1,47 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --fuente: Balsamiq Sans, sans-serif;
+}
+
+body{
+    background-image: url('../public/img/DJI_0019.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-color:black;
+    font-family: var(--fuente);
+}
+
+h1{
+    color: rgb(5, 5, 5);
+    text-align: center;
+    text-decoration:solid;
+    font-size: 700%;
+}
+
+#contenedor_contador{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column
+}
+
+#numero{
+    background-color: white;
+    font-size: 800%;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+}
+
+#contenedor_botones{
+    font-size: 300%;
+}
+
+.boton_contador{
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
